@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-76doa!($#a_@vr7@^f)yv4lsi%26vu%+7d26e&^4^8gpnkd#pa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['54.226.189.89', '127.0.0.1']
 
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['54.226.189.89', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'webaps',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
